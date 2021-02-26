@@ -1,0 +1,23 @@
+@import "../_foundation/styles";
+
+.ib-colon {
+    @include button;
+
+    &:before {
+        @include left-center-minus($border-width / 2);
+        @include top-center-minus($border-width);
+        background-color: $dark-color;
+        width: $border-width;
+        height: $border-width;
+        border-radius: 50%;
+    }
+
+    &:after {
+        @include left-center-minus($border-width / 2);
+        @include top-center-add($border-width);
+        background-color: $dark-color;
+        width: $border-width;
+        height: $border-width;
+        border-radius: 50%;
+    }
+}

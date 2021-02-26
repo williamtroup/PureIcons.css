@@ -1,0 +1,15 @@
+@import "../_foundation/styles";
+
+.ib-full-stop {
+    @include button-no-before-after;
+
+    &:before {
+        @include left-center;
+        @include button-after-before-setup;
+        background-color: $dark-color;
+        width: $border-width;
+        height: $border-width;
+        border-radius: 50%;
+        bottom: 0;
+    }
+}

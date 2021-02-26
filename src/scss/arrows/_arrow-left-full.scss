@@ -1,0 +1,10 @@
+@import "../_foundation/styles";
+
+.ib-arrow-left-full {
+    @include button-no-before-after;
+    width: 0; 
+    height: 0; 
+    border-top: calc(#{$size} - #{$border-width * 2}) solid transparent;
+    border-bottom: calc(#{$size} - #{$border-width * 2}) solid transparent;
+    border-right: calc(#{$size}) solid $dark-color;
+}

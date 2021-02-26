@@ -1,0 +1,21 @@
+@import "../_foundation/styles";
+
+.ib-pause {
+    @include button;
+
+    &:before {
+        @include left-center-minus($border-width);
+        background-color: $dark-color;
+        width: $border-width;
+        height: 100%;
+        border-radius: $border-radius;
+    }
+
+    &:after {
+        @include left-center-add($border-width);
+        background-color: $dark-color;
+        width: $border-width;
+        height: 100%;
+        border-radius: $border-radius;
+    }
+}

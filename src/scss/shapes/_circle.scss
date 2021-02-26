@@ -1,0 +1,7 @@
+@import "../_foundation/styles";
+
+.ib-circle {
+    @include button-no-before-after;
+    background-color: $dark-color;
+    border-radius: 50%;
+}

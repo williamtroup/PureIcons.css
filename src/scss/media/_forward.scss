@@ -1,0 +1,23 @@
+@import "../_foundation/styles";
+
+.ib-forward {
+    @include button;
+
+    &:before {
+        width: 0; 
+        height: 0; 
+        border-top: calc(#{$size} - #{$border-width * 2}) solid transparent;
+        border-bottom: calc(#{$size} - #{$border-width * 2}) solid transparent;
+        border-left: calc(#{$size / 2}) solid $dark-color;
+        right: 0;
+    }
+
+    &:after {
+        width: 0; 
+        height: 0; 
+        border-top: calc(#{$size} - #{$border-width * 2}) solid transparent;
+        border-bottom: calc(#{$size} - #{$border-width * 2}) solid transparent;
+        border-left: calc(#{$size / 2}) solid $dark-color;
+        left: 0;
+    }
+}
