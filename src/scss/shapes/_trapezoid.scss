@@ -1,0 +1,10 @@
+@import "../_foundation/styles";
+
+.ib-trapezoid {
+    @include button-no-before-after;
+    width: calc(#{$size} / 3); 
+    height: 0;
+    border-bottom: $size solid $dark-color;
+	border-left: calc(#{$size} / 3) solid transparent;
+	border-right: calc(#{$size} / 3) solid transparent;
+}

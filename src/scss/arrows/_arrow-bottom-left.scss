@@ -1,0 +1,10 @@
+@import "../_foundation/styles";
+
+.ib-arrow-bottom-left {
+    @include button-no-before-after;
+    width: calc(#{$size} - #{$border-width});
+    height: calc(#{$size} - #{$border-width});
+    border-left: $border;
+    border-bottom: $border;
+    border-radius: $border-radius;
+}

@@ -1,0 +1,7 @@
+@import "../_foundation/styles";
+
+.ib-square {
+    @include button-no-before-after;
+    background-color: $dark-color;
+    border-radius: $border-radius;
+}

@@ -1,0 +1,14 @@
+@import "../_foundation/styles";
+
+.ib-underscore {
+    @include button-no-before-after;
+
+    &:before {
+        @include button-after-before-setup;
+        background-color: $dark-color;
+        width: 100%;
+        height: $border-width;
+        border-radius: $border-radius;
+        bottom: 0;
+    }
+}

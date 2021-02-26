@@ -1,0 +1,21 @@
+@import "../_foundation/styles";
+
+.ib-equals {
+    @include button;
+
+    &:before {
+        @include top-center-minus($border-width);
+        background-color: $dark-color;
+        width: 100%;
+        height: $border-width;
+        border-radius: $border-radius;
+    }
+
+    &:after {
+        @include top-center-add($border-width);
+        background-color: $dark-color;
+        width: 100%;
+        height: $border-width;
+        border-radius: $border-radius;
+    }
+}

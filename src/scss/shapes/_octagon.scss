@@ -1,0 +1,23 @@
+@import "../_foundation/styles";
+
+.ib-octagon {
+    @include button;
+
+    &:before {
+        @include transform-rotate(-45deg);
+        background-color: $dark-color;
+        width: calc(#{$size} - #{$border-width});
+        height: calc(#{$size} - #{$border-width});
+        left: $border-width / 2;
+        top: $border-width / 2;
+    }
+
+    &:after {
+        @include transform-rotate(90deg);
+        background-color: $dark-color;
+        width: calc(#{$size} - #{$border-width});
+        height: calc(#{$size} - #{$border-width});
+        left: $border-width / 2;
+        top: $border-width / 2;
+    }
+}

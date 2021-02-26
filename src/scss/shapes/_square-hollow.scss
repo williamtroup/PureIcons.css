@@ -1,0 +1,9 @@
+@import "../_foundation/styles";
+
+.ib-square-hollow {
+    @include button-no-before-after;
+    border: $border;
+    border-radius: $border-radius;
+    width: calc(#{$size} - #{$border-width * 2});
+    height: calc(#{$size} - #{$border-width * 2});
+}

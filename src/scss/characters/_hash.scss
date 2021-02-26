@@ -1,0 +1,23 @@
+@import "../_foundation/styles";
+
+.ib-hash {
+    @include button;
+
+    &:before {
+        @include top-center;
+        border-top: $border;
+        border-bottom: $border;
+        width: 100%;
+        height: $border-width / 3;
+        border-radius: $border-radius;
+    }
+
+    &:after {
+        @include left-center;
+        border-left: $border;
+        border-right: $border;
+        width: $border-width / 3;
+        height: 100%;
+        border-radius: $border-radius;
+    }
+}

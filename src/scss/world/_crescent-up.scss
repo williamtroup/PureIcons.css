@@ -1,0 +1,14 @@
+@import "../_foundation/styles";
+
+.ib-crescent-up {
+    @include button-no-before-after;
+
+    &:before {
+        @include button-after-before-setup;
+        border-top: $border;
+        border-radius: 50%;
+        top: $border-width;
+        width: 100%;
+        height: calc(#{$size} - #{$border-width});
+    }
+}
