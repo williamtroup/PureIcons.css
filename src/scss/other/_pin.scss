@@ -2,7 +2,7 @@
 
 .ib-pin {
     @include button;
-    height: calc(#{$size} - #{$border-width});
+    height: $size - $border-width;
     border-top: $border;
     border-radius: 50%;
 

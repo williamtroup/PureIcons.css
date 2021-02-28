@@ -5,12 +5,12 @@
     border-top: $border;
     border-bottom: $border;
     border-radius: 50%;
-    height: calc(#{$size} - #{$border-width * 2});
+    height: $size - $border-width * 2;
 
     &:before {
+        @include button-after-before-setup;
         @include left-center-minus($border-width / 2);
         @include top-center;
-        @include button-after-before-setup;
         background-color: $dark-color;
         width: $border-width;
         height: $border-width;

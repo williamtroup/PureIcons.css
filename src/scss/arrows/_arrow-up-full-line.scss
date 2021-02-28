@@ -6,16 +6,16 @@
     &:before {
         width: 0; 
         height: 0; 
-        border-left: calc(#{$size} - #{$border-width * 2}) solid transparent;
-        border-right: calc(#{$size} - #{$border-width * 2}) solid transparent;
-        border-bottom: calc(#{$size} - #{$border-width * 2}) solid $dark-color;
+        border-left: $size - $border-width * 2 solid transparent;
+        border-right: $size - $border-width * 2 solid transparent;
+        border-bottom: $size - $border-width * 2 solid $dark-color;
         top: 0;
     }
 
     &:after {
         @include left-center;
-        width: calc(#{$size} - #{$border-width * 2});
-        height: calc(#{$size} - #{$border-width * 2});
+        width: $size - $border-width * 2;
+        height: $size - $border-width * 2;
         background-color: $dark-color;
         bottom: 0;
     }

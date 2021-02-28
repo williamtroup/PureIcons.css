@@ -8,8 +8,8 @@
         @include transform-rotate(-45deg);
         background-color: $dark-color;
         border-radius: $border-radius;
-        width: calc(#{$size} - #{$border-width});
-        height: calc(#{$size} - #{$border-width});
+        width: $size - $border-width;
+        height: $size - $border-width;
         left: $border-width / 2;
         top: $border-width / 2;
     }

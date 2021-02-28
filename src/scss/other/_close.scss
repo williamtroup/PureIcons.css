@@ -5,10 +5,10 @@
 
     &:before,
     &:after {
-        left: calc((#{$size} / 2) - #{$border-width / 2});
+        left: ($size / 2) - $border-width / 2;
         top: -($border-width / 4);
-        height: $size + ($border-width / 2);
         width: $border-width;
+        height: $size + $border-width / 2;
         background-color: $dark-color;
         border-radius: $border-radius;
     }

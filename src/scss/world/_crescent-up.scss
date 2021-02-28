@@ -9,6 +9,6 @@
         border-radius: 50%;
         top: $border-width;
         width: 100%;
-        height: calc(#{$size} - #{$border-width});
+        height: $size - $border-width;
     }
 }
