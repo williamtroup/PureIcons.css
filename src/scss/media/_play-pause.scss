@@ -16,6 +16,7 @@
         border-left: $border-width solid $dark-color;
         border-right: $border-width solid $dark-color;
         width: $border-width / 3;
+        border-radius: $border-radius;
         height: 100%;
         right: 0;
     }

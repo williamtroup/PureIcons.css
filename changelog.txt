@@ -7,6 +7,8 @@ v0.2.0:
 - Added Arrow - Right-Full-Line.
 - Added Arrow - Up-Full-Line.
 - Added Arrow - Down-Full-Line.
+- Added Other - Close.
+- Added border-radius variable support to more icons.
 
 v0.1.0:
 - All 46 Icons.

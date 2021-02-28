@@ -1,0 +1,23 @@
+@import "../_foundation/styles";
+
+.ib-close {
+    @include button;
+
+    &:before,
+    &:after {
+        left: calc((#{$size} / 2) - #{$border-width / 2});
+        content: ' ';
+        height: $size;
+        width: $border-width;
+        background-color: $dark-color;
+        border-radius: $border-radius;
+    }
+
+    &:before {
+        transform: rotate(45deg);
+    }
+
+    &:after {
+        transform: rotate(-45deg);
+    }
+}
