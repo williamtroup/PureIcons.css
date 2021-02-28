@@ -12,6 +12,7 @@ v0.2.0:
 - Added Shape - Square-Dot.
 - Added Shape - Circle-Dot.
 - Added Other - Bar-Graph.
+- Removed all calc() calls for PX based sizes.
 
 v0.1.0:
 - All 46 Icons.
