@@ -217,6 +217,186 @@
   opacity: 0.5;
 }
 
+.ib-arrow-left-full-line {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-arrow-left-full-line:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-arrow-left-full-line:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-arrow-left-full-line:before, .ib-arrow-left-full-line:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-arrow-left-full-line:before {
+  width: 0;
+  height: 0;
+  border-top: calc(24px - 12px) solid transparent;
+  border-bottom: calc(24px - 12px) solid transparent;
+  border-right: calc(24px - 12px) solid #282828;
+  left: 0;
+}
+
+.ib-arrow-left-full-line:after {
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: calc(24px - 12px);
+  height: calc(24px - 12px);
+  background-color: #282828;
+  right: 0;
+}
+
+.ib-arrow-right-full-line {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-arrow-right-full-line:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-arrow-right-full-line:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-arrow-right-full-line:before, .ib-arrow-right-full-line:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-arrow-right-full-line:before {
+  width: 0;
+  height: 0;
+  border-top: calc(24px - 12px) solid transparent;
+  border-bottom: calc(24px - 12px) solid transparent;
+  border-left: calc(24px - 12px) solid #282828;
+  right: 0;
+}
+
+.ib-arrow-right-full-line:after {
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: calc(24px - 12px);
+  height: calc(24px - 12px);
+  background-color: #282828;
+  left: 0;
+}
+
+.ib-arrow-up-full-line {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-arrow-up-full-line:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-arrow-up-full-line:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-arrow-up-full-line:before, .ib-arrow-up-full-line:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-arrow-up-full-line:before {
+  width: 0;
+  height: 0;
+  border-left: calc(24px - 12px) solid transparent;
+  border-right: calc(24px - 12px) solid transparent;
+  border-bottom: calc(24px - 12px) solid #282828;
+  top: 0;
+}
+
+.ib-arrow-up-full-line:after {
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  width: calc(24px - 12px);
+  height: calc(24px - 12px);
+  background-color: #282828;
+  bottom: 0;
+}
+
+.ib-arrow-down-full-line {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-arrow-down-full-line:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-arrow-down-full-line:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-arrow-down-full-line:before, .ib-arrow-down-full-line:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-arrow-down-full-line:before {
+  width: 0;
+  height: 0;
+  border-left: calc(24px - 12px) solid transparent;
+  border-right: calc(24px - 12px) solid transparent;
+  border-top: calc(24px - 12px) solid #282828;
+  bottom: 0;
+}
+
+.ib-arrow-down-full-line:after {
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  width: calc(24px - 12px);
+  height: calc(24px - 12px);
+  background-color: #282828;
+  top: 0;
+}
+
 /*
     -------------------------------------------------------------------------
     PureIcons.css - Shapes
@@ -1755,14 +1935,14 @@
 }
 
 .ib-dot:before {
+  position: absolute;
+  content: "";
   left: calc(50% - 3px);
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   top: 50%;
   -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%);
-  position: absolute;
-  content: "";
   background-color: #282828;
   width: 6px;
   height: 6px;

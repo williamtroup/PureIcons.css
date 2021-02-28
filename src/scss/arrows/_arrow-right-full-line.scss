@@ -1,0 +1,22 @@
+@import "../_foundation/styles";
+
+.ib-arrow-right-full-line {
+    @include button;
+
+    &:before {
+        width: 0; 
+        height: 0; 
+        border-top: calc(#{$size} - #{$border-width * 2}) solid transparent;
+        border-bottom: calc(#{$size} - #{$border-width * 2}) solid transparent;
+        border-left: calc(#{$size} - #{$border-width * 2}) solid $dark-color;
+        right: 0;
+    }
+
+    &:after {
+        @include top-center;
+        width: calc(#{$size} - #{$border-width * 2});
+        height: calc(#{$size} - #{$border-width * 2});
+        background-color: $dark-color;
+        left: 0;
+    }
+}

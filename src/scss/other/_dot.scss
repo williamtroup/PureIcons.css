@@ -4,9 +4,9 @@
     @include button-no-before-after;
 
     &:before {
+        @include button-after-before-setup;
         @include left-center-minus($border-width / 2);
         @include top-center;
-        @include button-after-before-setup;
         background-color: $dark-color;
         width: $border-width;
         height: $border-width;

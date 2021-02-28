@@ -3,6 +3,10 @@ v0.2.0:
 - Added Character - Quote.
 - Added Character - Speech Mark.
 - Added Media - Play-Pause.
+- Added Arrow - Left-Full-Line.
+- Added Arrow - Right-Full-Line.
+- Added Arrow - Up-Full-Line.
+- Added Arrow - Down-Full-Line.
 
 v0.1.0:
 - All 46 Icons.
