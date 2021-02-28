@@ -3,6 +3,7 @@
 .ib-bar-graph {
     @include button;
     border-left: $border;
+    width: $size - $border-width;
 
     &:before {
         @include left-center-minus($border-width / 2);

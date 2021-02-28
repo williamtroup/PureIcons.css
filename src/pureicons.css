@@ -2168,6 +2168,7 @@
   display: inline-block;
   position: relative;
   border-left: 6px solid #282828;
+  width: 18px;
 }
 
 .ib-bar-graph:hover {
