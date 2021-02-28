@@ -11,6 +11,7 @@ v0.2.0:
 - Added border-radius variable support to more icons.
 - Added Shape - Square-Dot.
 - Added Shape - Circle-Dot.
+- Added Other - Bar-Graph.
 
 v0.1.0:
 - All 46 Icons.

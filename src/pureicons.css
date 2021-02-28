@@ -2161,4 +2161,49 @@
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
+
+.ib-bar-graph {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+  border-left: 6px solid #282828;
+}
+
+.ib-bar-graph:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-bar-graph:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-bar-graph:before, .ib-bar-graph:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-bar-graph:before {
+  left: calc(50% - 3px);
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #282828;
+  width: 6px;
+  height: 8px;
+  bottom: 0;
+}
+
+.ib-bar-graph:after {
+  background-color: #282828;
+  width: 6px;
+  height: 12px;
+  bottom: 0;
+  right: 0;
+}
 /*# sourceMappingURL=pureicons.css.map */

@@ -1,0 +1,22 @@
+@import "../_foundation/styles";
+
+.ib-bar-graph {
+    @include button;
+    border-left: $border;
+
+    &:before {
+        @include left-center-minus($border-width / 2);
+        background-color: $dark-color;
+        width: $border-width;
+        height: $size / 3;
+        bottom: 0;
+    }
+
+    &:after {
+        background-color: $dark-color;
+        width: $border-width;
+        height: $size / 2;
+        bottom: 0;
+        right: 0;
+    }
+}
