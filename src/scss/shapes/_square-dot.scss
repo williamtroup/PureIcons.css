@@ -1,0 +1,19 @@
+@import "../_foundation/styles";
+
+.ib-square-dot {
+    @include button-no-before-after;
+    border: $border;
+    border-radius: $border-radius;
+    width: calc(#{$size} - #{$border-width * 2});
+    height: calc(#{$size} - #{$border-width * 2});
+
+    &:before {
+        @include button-after-before-setup;
+        @include left-center-minus($border-width / 2);
+        @include top-center;
+        background-color: $dark-color;
+        width: $border-width;
+        height: $border-width;
+        border-radius: $border-radius;
+    }
+}
