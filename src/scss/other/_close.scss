@@ -6,8 +6,9 @@
     &:before,
     &:after {
         left: calc((#{$size} / 2) - #{$border-width / 2});
+        top: -($border-width / 4);
         content: ' ';
-        height: $size;
+        height: $size + ($border-width / 2);
         width: $border-width;
         background-color: $dark-color;
         border-radius: $border-radius;

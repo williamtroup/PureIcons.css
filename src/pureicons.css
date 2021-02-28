@@ -2145,8 +2145,9 @@
 
 .ib-close:before, .ib-close:after {
   left: calc((24px / 2) - 3px);
+  top: -1.5px;
   content: ' ';
-  height: 24px;
+  height: 27px;
   width: 6px;
   background-color: #282828;
   border-radius: 0;
