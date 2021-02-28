@@ -950,6 +950,54 @@
   border-radius: 0;
 }
 
+.ib-quote {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-quote:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-quote:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-quote:before, .ib-quote:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-quote:before {
+  left: calc(50% - 6px);
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #282828;
+  width: 6px;
+  height: 12px;
+  border-radius: 0;
+  top: 0;
+}
+
+.ib-quote:after {
+  left: calc(50% + 6px);
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #282828;
+  width: 6px;
+  height: 12px;
+  border-radius: 0;
+  top: 0;
+}
+
 /*
     -------------------------------------------------------------------------
     PureIcons.css - World
