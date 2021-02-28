@@ -3,14 +3,13 @@
 .ib-refresh {
     @include button;
     
-
     &:before {
         border-top: $border;
         border-left: $border;
         border-radius: $border-radius;
         left: 0;
-        width: calc(#{$size} - #{$border-width * 2} - #{$border-width / 3});
-        height: calc(#{$size} - #{$border-width});
+        width: $size - $border-width * 2 - $border-width / 3;
+        height: $size - $border-width;
     }
 
     &:after {
@@ -18,7 +17,7 @@
         border-right: $border;
         border-radius: $border-radius;
         right: 0;
-        width: calc(#{$size} - #{$border-width * 2} - #{$border-width / 3});
-        height: calc(#{$size} - #{$border-width});
+        width: $size - $border-width * 2 - $border-width / 3;
+        height: $size - $border-width;
     }
 }

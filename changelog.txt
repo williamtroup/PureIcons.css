@@ -1,0 +1,18 @@
+v0.2.0:
+- Added Other - Hourglass.
+- Added Character - Quote.
+- Added Character - Speech Mark.
+- Added Media - Play-Pause.
+- Added Arrow - Left-Full-Line.
+- Added Arrow - Right-Full-Line.
+- Added Arrow - Up-Full-Line.
+- Added Arrow - Down-Full-Line.
+- Added Other - Close.
+- Added border-radius variable support to more icons.
+- Added Shape - Square-Dot.
+- Added Shape - Circle-Dot.
+- Added Other - Bar-Graph.
+- Removed all calc() calls for PX based sizes.
+
+v0.1.0:
+- All 46 Icons.

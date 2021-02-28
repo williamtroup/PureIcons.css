@@ -5,7 +5,7 @@
     border-top: $border;
     border-bottom: $border;
     border-radius: $border-radius;
-    height: calc(#{$size} - #{$border-width * 2});
+    height: $size - $border-width * 2;
 
     &:before {
         @include button-after-before-setup;

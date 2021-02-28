@@ -1,6 +1,6 @@
 @import "../_foundation/styles";
 
-.ib-first {
+.ib-arrow-right-full-line {
     @include button;
 
     &:before {
@@ -8,15 +8,15 @@
         height: 0; 
         border-top: $size - $border-width * 2 solid transparent;
         border-bottom: $size - $border-width * 2 solid transparent;
-        border-right: $size - $border-width - $border-width / 2 solid $dark-color;
+        border-left: $size - $border-width * 2 solid $dark-color;
         right: 0;
     }
 
     &:after {
-        width: $border-width;
-        height: 100%;
+        @include top-center;
+        width: $size - $border-width * 2;
+        height: $size - $border-width * 2;
         background-color: $dark-color;
-        border-radius: $border-radius;
         left: 0;
     }
 }

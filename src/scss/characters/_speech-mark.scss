@@ -1,15 +1,15 @@
 @import "../_foundation/styles";
 
-.ib-full-stop {
-    @include button-no-before-after;
+.ib-speech-mark {
+    @include button-no-before-after;;
 
     &:before {
         @include button-after-before-setup;
         @include left-center;
         background-color: $dark-color;
         width: $border-width;
-        height: $border-width;
-        border-radius: 50%;
-        bottom: 0;
+        height: $border-width * 2;
+        border-radius: $border-radius;
+        top: 0;
     }
 }

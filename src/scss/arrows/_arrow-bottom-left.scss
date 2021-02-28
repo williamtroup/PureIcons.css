@@ -2,8 +2,8 @@
 
 .ib-arrow-bottom-left {
     @include button-no-before-after;
-    width: calc(#{$size} - #{$border-width});
-    height: calc(#{$size} - #{$border-width});
+    width: $size - $border-width;
+    height: $size - $border-width;
     border-left: $border;
     border-bottom: $border;
     border-radius: $border-radius;

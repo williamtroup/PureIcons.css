@@ -11,6 +11,6 @@
         border-left: $border;
         border-radius: $border-radius;
         width: 25%;
-        height: calc(#{$size} - #{$border-width * 2});
+        height: $size - $border-width * 2;
     }
 }

@@ -8,7 +8,7 @@
         border-right: $border;
         border-radius: 50%;
         right: $border-width;
-        width: calc(#{$size} - #{$border-width});
+        width: $size - $border-width;
         height: 100%;
     }
 }

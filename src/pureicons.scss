@@ -1,5 +1,5 @@
 /*
- * PureIcons.css v0.1.0
+ * PureIcons.css v0.2.0
  *
  * Copyright 2021 Bunoon
  * Released under the GNU AGPLv3 license
@@ -19,6 +19,10 @@
 @import "scss/arrows/arrow-down-full";
 @import "scss/arrows/arrow-left-full";
 @import "scss/arrows/arrow-right-full";
+@import "scss/arrows/arrow-left-full-line";
+@import "scss/arrows/arrow-right-full-line";
+@import "scss/arrows/arrow-up-full-line";
+@import "scss/arrows/arrow-down-full-line";
 
 
 /*
@@ -28,8 +32,10 @@
 */
 @import "scss/shapes/square";
 @import "scss/shapes/square-hollow";
+@import "scss/shapes/square-dot";
 @import "scss/shapes/circle";
 @import "scss/shapes/circle-hollow";
+@import "scss/shapes/circle-dot";
 @import "scss/shapes/rhombus";
 @import "scss/shapes/rhombus-hollow";
 @import "scss/shapes/octagon";
@@ -53,6 +59,8 @@
 @import "scss/characters/square-bracket-right";
 @import "scss/characters/colon";
 @import "scss/characters/hash";
+@import "scss/characters/quote";
+@import "scss/characters/speech-mark";
 
 
 /*
@@ -80,6 +88,7 @@
 @import "scss/media/last";
 @import "scss/media/rewind";
 @import "scss/media/forward";
+@import "scss/media/play-pause";
 
 
 /*
@@ -92,3 +101,6 @@
 @import "scss/other/hamburger";
 @import "scss/other/dot";
 @import "scss/other/eye";
+@import "scss/other/hourglass";
+@import "scss/other/close";
+@import "scss/other/bar-graph";
