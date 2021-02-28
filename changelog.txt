@@ -1,5 +1,5 @@
 v0.2.0:
-- 
+- Added Other - Hourglass.
 
 v0.1.0:
 - All 46 Icons.

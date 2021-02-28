@@ -146,7 +146,7 @@
   position: relative;
   width: 0;
   height: 0;
-  border-top: calc(24px) solid #282828;
+  border-top: 24px solid #282828;
   border-left: calc(24px - 12px) solid transparent;
   border-right: calc(24px - 12px) solid transparent;
 }
@@ -1683,5 +1683,49 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
+}
+
+.ib-hourglass {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-hourglass:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-hourglass:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-hourglass:before, .ib-hourglass:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-hourglass:before {
+  width: 0;
+  height: 0;
+  border-left: calc(24px - 12px) solid transparent;
+  border-right: calc(24px - 12px) solid transparent;
+  border-bottom: calc(24px - 6px - 3px) solid #282828;
+  bottom: 0;
+}
+
+.ib-hourglass:after {
+  width: 0;
+  height: 0;
+  border-top: calc(24px - 6px - 3px) solid #282828;
+  border-left: calc(24px - 12px) solid transparent;
+  border-right: calc(24px - 12px) solid transparent;
+  top: 0;
 }
 /*# sourceMappingURL=pureicons.css.map */
