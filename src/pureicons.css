@@ -768,11 +768,11 @@
 }
 
 .ib-full-stop:before {
+  position: absolute;
+  content: "";
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  position: absolute;
-  content: "";
   background-color: #282828;
   width: 6px;
   height: 6px;
@@ -989,6 +989,40 @@
 
 .ib-quote:after {
   left: calc(50% + 6px);
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #282828;
+  width: 6px;
+  height: 12px;
+  border-radius: 0;
+  top: 0;
+}
+
+.ib-speech-mark {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-speech-mark:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-speech-mark:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-speech-mark:before {
+  position: absolute;
+  content: "";
+  left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   background-color: #282828;
