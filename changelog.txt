@@ -2,6 +2,7 @@ v0.2.0:
 - Added Other - Hourglass.
 - Added Character - Quote.
 - Added Character - Speech Mark.
+- Added Media - Play-Pause.
 
 v0.1.0:
 - All 46 Icons.

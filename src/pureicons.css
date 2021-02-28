@@ -1553,6 +1553,48 @@
   left: 0;
 }
 
+.ib-play-pause {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-play-pause:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-play-pause:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-play-pause:before, .ib-play-pause:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-play-pause:before {
+  width: 0;
+  height: 0;
+  border-top: calc(24px - 12px) solid transparent;
+  border-bottom: calc(24px - 12px) solid transparent;
+  border-left: calc(24px - 12px - 3px) solid #282828;
+}
+
+.ib-play-pause:after {
+  border-left: 6px solid #282828;
+  border-right: 6px solid #282828;
+  width: 2px;
+  height: 100%;
+  right: 0;
+}
+
 /*
     -------------------------------------------------------------------------
     PureIcons.css - Other
