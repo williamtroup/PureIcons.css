@@ -16,7 +16,6 @@ v0.3.0:
 - Added Character - Forward-Slash.
 - Improved the testing "index.html" file.
 - Added Other - Wi-Fi.
-- Added Other - Tick.
 - Added Shape - Square-Four.
 - Added Arrow - Expand-Left-Right.
 - Added Arrow - Expand-Right-Left.
