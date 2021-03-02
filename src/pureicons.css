@@ -1424,6 +1424,37 @@
   top: 0;
 }
 
+.ib-not {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-not:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-not:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-not:before {
+  position: absolute;
+  content: "";
+  border-top: 6px solid #282828;
+  border-right: 6px solid #282828;
+  width: 18px;
+  height: 12px;
+  border-radius: 0;
+}
+
 /*
     -------------------------------------------------------------------------
     PureIcons.css - World
