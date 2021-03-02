@@ -2,7 +2,7 @@
 
 This is a library of icons rendered purely in CSS and compiled using SASSs.
 
-It is currently at 58 icons.  More will be added as we go along.
+It is currently at 79 icons.  More will be added as we go along.
 
 To get started, download the source code and run the "index.html" file.  This will see all of the icons available.
 
