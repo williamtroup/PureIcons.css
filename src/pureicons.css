@@ -2717,4 +2717,57 @@
   right: 4px;
   bottom: 1px;
 }
+
+.ib-wi-fi {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+  border-top: 6px solid #282828;
+  border-radius: 0;
+  height: 18px;
+}
+
+.ib-wi-fi:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-wi-fi:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-wi-fi:before, .ib-wi-fi:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-wi-fi:before {
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #282828;
+  width: 6px;
+  height: 6px;
+  border-radius: 0;
+  bottom: 0;
+}
+
+.ib-wi-fi:after {
+  left: calc(50% - 6px);
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  top: calc(50% - 3px);
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  background-color: #282828;
+  width: 12px;
+  height: 6px;
+  border-radius: 0;
+}
 /*# sourceMappingURL=pureicons.css.map */

@@ -15,6 +15,7 @@ v0.3.0:
 - Added Character - Back-Slash.
 - Added Character - Forward-Slash.
 - Improved the testing "index.html" file.
+- Added Other - Wi-Fi.
 
 v0.2.0:
 - Added Other - Hourglass.
