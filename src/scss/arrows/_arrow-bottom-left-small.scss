@@ -1,0 +1,16 @@
+@import "../_foundation/styles";
+
+.ib-arrow-bottom-left-small {
+    @include button-no-before-after;
+
+    &:before {
+        @include button-after-before-setup;
+        width: ($size / 2) - $border-width;
+        height: ($size / 2) - $border-width;
+        border-left: $border;
+        border-bottom: $border;
+        border-radius: $border-radius;
+        left: 0;
+        bottom: 0;
+    }
+}

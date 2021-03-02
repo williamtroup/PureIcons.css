@@ -1,4 +1,8 @@
 v0.3.0:
+- Added Arrow - Arrow-Top-Left-Small.
+- Added Arrow - Arrow-Top-Right-Small.
+- Added Arrow - Arrow-Bottom-Left-Small.
+- Added Arrow - Arrow-Bottom-Right-Small.
 
 v0.2.0:
 - Added Other - Hourglass.
