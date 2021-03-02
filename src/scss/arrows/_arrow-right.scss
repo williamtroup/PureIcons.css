@@ -1,0 +1,17 @@
+@import "../_foundation/styles";
+
+.ib-arrow-right {
+    @include button-no-before-after;
+
+    &:before {
+        @include button-after-before-setup;
+        @include transform-rotate(45deg);
+        border-right: $border;
+        border-top: $border;
+        border-radius: $border-radius;
+        width: ($size - $border-width * 2) - ($border-width / 6);
+        height: ($size - $border-width * 2) - ($border-width / 6);
+        right: $border-width / 3 + $border-width / 4;
+        top: $border-width / 3 + $border-width / 4;
+    }
+}

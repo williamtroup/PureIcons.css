@@ -6,9 +6,10 @@
     &:before {
         width: 0; 
         height: 0; 
-        border-left: $size - $border-width * 2 solid transparent;
-        border-right: $size - $border-width * 2 solid transparent;
+        border-left: $size / 2 solid transparent;
+        border-right: $size / 2 solid transparent;
         border-bottom: $size - $border-width - $border-width / 2 solid $dark-color;
+        left: 0;
         bottom: 0;
     }
 
@@ -16,8 +17,9 @@
         width: 0; 
         height: 0;
         border-top: $size - $border-width - $border-width / 2 solid $dark-color;
-        border-left: $size - $border-width * 2 solid transparent;
-        border-right: $size - $border-width * 2 solid transparent;
+        border-left: $size / 2 solid transparent;
+        border-right: $size / 2 solid transparent;
+        left: 0;
         top: 0;
     }
 }

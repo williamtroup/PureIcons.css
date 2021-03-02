@@ -1,17 +1,16 @@
 @import "../_foundation/styles";
 
-.ib-square-bracket-left {
+.ib-arrow-bottom-right-small {
     @include button-no-before-after;
 
     &:before {
         @include button-after-before-setup;
-        @include left-center;
-        border-top: $border;
+        width: ($size / 2) - $border-width;
+        height: ($size / 2) - $border-width;
+        border-right: $border;
         border-bottom: $border;
-        border-left: $border;
         border-radius: $border-radius;
-        width: 25%;
-        height: $size - $border-width * 2;
-        top: 0;
+        right: 0;
+        bottom: 0;
     }
 }

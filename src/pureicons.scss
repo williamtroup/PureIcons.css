@@ -1,5 +1,5 @@
 /*
- * PureIcons.css v0.2.0
+ * PureIcons.css v0.3.0
  *
  * Copyright 2021 Bunoon
  * Released under the GNU AGPLv3 license
@@ -15,6 +15,10 @@
 @import "scss/arrows/arrow-top-right";
 @import "scss/arrows/arrow-bottom-left";
 @import "scss/arrows/arrow-bottom-right";
+@import "scss/arrows/arrow-top-left-small";
+@import "scss/arrows/arrow-top-right-small";
+@import "scss/arrows/arrow-bottom-left-small";
+@import "scss/arrows/arrow-bottom-right-small";
 @import "scss/arrows/arrow-up-full";
 @import "scss/arrows/arrow-down-full";
 @import "scss/arrows/arrow-left-full";
@@ -23,6 +27,14 @@
 @import "scss/arrows/arrow-right-full-line";
 @import "scss/arrows/arrow-up-full-line";
 @import "scss/arrows/arrow-down-full-line";
+@import "scss/arrows/arrow-up";
+@import "scss/arrows/arrow-down";
+@import "scss/arrows/arrow-left";
+@import "scss/arrows/arrow-right";
+@import "scss/arrows/arrow-expand-left-right";
+@import "scss/arrows/arrow-expand-right-left";
+@import "scss/arrows/arrow-contract-left-right";
+@import "scss/arrows/arrow-contract-right-left";
 
 
 /*
@@ -33,9 +45,11 @@
 @import "scss/shapes/square";
 @import "scss/shapes/square-hollow";
 @import "scss/shapes/square-dot";
+@import "scss/shapes/square-four";
 @import "scss/shapes/circle";
 @import "scss/shapes/circle-hollow";
 @import "scss/shapes/circle-dot";
+@import "scss/shapes/circle-stop";
 @import "scss/shapes/rhombus";
 @import "scss/shapes/rhombus-hollow";
 @import "scss/shapes/octagon";
@@ -61,6 +75,9 @@
 @import "scss/characters/hash";
 @import "scss/characters/quote";
 @import "scss/characters/speech-mark";
+@import "scss/characters/not";
+@import "scss/characters/back-slash";
+@import "scss/characters/forward-slash";
 
 
 /*
@@ -101,6 +118,10 @@
 @import "scss/other/hamburger";
 @import "scss/other/dot";
 @import "scss/other/eye";
+@import "scss/other/eye-side";
 @import "scss/other/hourglass";
 @import "scss/other/close";
 @import "scss/other/bar-graph";
+@import "scss/other/expand";
+@import "scss/other/search";
+@import "scss/other/wi-fi";

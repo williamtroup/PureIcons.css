@@ -1,0 +1,25 @@
+@import "../_foundation/styles";
+
+.ib-square-four {
+    @include button;
+    border: $border;
+    border-radius: $border-radius;
+    width: $size - $border-width * 2;
+    height: $size - $border-width * 2;
+
+    &:before {
+        background-color: $dark-color;
+        width: ($size - $border-width * 2) / 2;
+        height: ($size - $border-width * 2) / 2;
+        left: 0;
+        top: 0;
+    }
+
+    &:after {
+        background-color: $dark-color;
+        width: ($size - $border-width * 2) / 2;
+        height: ($size - $border-width * 2) / 2;
+        right: 0;
+        bottom: 0;
+    }
+}

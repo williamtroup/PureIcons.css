@@ -1,0 +1,16 @@
+@import "../_foundation/styles";
+
+.ib-back-slash {
+    @include button-no-before-after;
+
+    &:after {
+        @include button-after-before-setup;
+        @include transform-rotate(-22.5deg);
+        width: $border-width;
+        height: $size + $border-width / 4 - $border-width / 4;
+        background-color: $dark-color;
+        border-radius: $border-radius;
+        left: ($size / 2) - ($border-width / 4 + $border-width / 4);
+        top: -($border-width / 4 - $border-width / 4);
+    }
+}

@@ -4,7 +4,7 @@
     @include button-no-before-after;
     width: 0; 
     height: 0; 
-    border-left: $size - $border-width * 2 solid transparent;
-    border-right: $size - $border-width * 2 solid transparent;
+    border-left: $size / 2 solid transparent;
+    border-right: $size / 2 solid transparent;
     border-bottom: $size solid $dark-color;
 }

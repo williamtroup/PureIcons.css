@@ -1,0 +1,25 @@
+@import "../_foundation/styles";
+
+.ib-arrow-contract-right-left {
+    @include button;
+
+    &:before {
+        border-right: $border;
+        border-bottom: $border;
+        border-radius: $border-radius;
+        width: $size - $size / 2 - $border-width;
+        height: $size - $size / 2 - $border-width;
+        top: 0;
+        left: 0;
+    }
+
+    &:after {
+        border-left: $border;
+        border-top: $border;
+        border-radius: $border-radius;
+        width: $size - $size / 2 - $border-width;
+        height: $size - $size / 2 - $border-width;
+        bottom: 0;
+        right: 0;
+    }
+}

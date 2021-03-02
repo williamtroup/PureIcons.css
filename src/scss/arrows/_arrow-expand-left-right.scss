@@ -1,25 +1,25 @@
 @import "../_foundation/styles";
 
-.ib-hash {
+.ib-arrow-expand-left-right {
     @include button;
 
     &:before {
-        @include top-center;
-        border-top: $border;
+        border-left: $border;
         border-bottom: $border;
-        width: 100%;
-        height: $border-width / 3;
         border-radius: $border-radius;
+        width: $size - $size / 2;
+        height: $size - $size / 2;
+        bottom: 0;
         left: 0;
     }
 
     &:after {
-        @include left-center;
-        border-left: $border;
         border-right: $border;
-        width: $border-width / 3;
-        height: 100%;
+        border-top: $border;
         border-radius: $border-radius;
+        width: $size - $size / 2;
+        height: $size - $size / 2;
         top: 0;
+        right: 0;
     }
 }

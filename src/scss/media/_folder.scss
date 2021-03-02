@@ -8,6 +8,7 @@
         width: $size;
         height: $size - $border-width / 2;
         bottom: 0;
+        left: 0;
     }
 
     &:after {

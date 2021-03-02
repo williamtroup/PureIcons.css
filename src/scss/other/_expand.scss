@@ -1,23 +1,25 @@
 @import "../_foundation/styles";
 
-.ib-equals {
+.ib-expand {
     @include button;
 
     &:before {
-        @include top-center-minus($border-width);
-        background-color: $dark-color;
-        width: 100%;
+        border-left: $border;
+        border-right: $border;
+        width: $size - $border-width * 2;
         height: $border-width;
         border-radius: $border-radius;
         left: 0;
+        top: 0;
     }
 
     &:after {
-        @include top-center-add($border-width);
-        background-color: $dark-color;
-        width: 100%;
+        border-left: $border;
+        border-right: $border;
+        width: $size - $border-width * 2;
         height: $border-width;
         border-radius: $border-radius;
         left: 0;
+        bottom: 0;
     }
 }

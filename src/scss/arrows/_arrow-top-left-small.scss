@@ -1,15 +1,16 @@
 @import "../_foundation/styles";
 
-.ib-pipe {
+.ib-arrow-top-left-small {
     @include button-no-before-after;
 
     &:before {
         @include button-after-before-setup;
-        @include left-center;
-        background-color: $dark-color;
-        width: $border-width;
-        height: 100%;
+        width: ($size / 2) - $border-width;
+        height: ($size / 2) - $border-width;
+        border-left: $border;
+        border-top: $border;
         border-radius: $border-radius;
+        left: 0;
         top: 0;
     }
 }

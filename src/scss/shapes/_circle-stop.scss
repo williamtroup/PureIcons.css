@@ -1,18 +1,14 @@
 @import "../_foundation/styles";
 
-.ib-plus {
-    @include button;
+.ib-circle-stop {
+    @include button-no-before-after;
+    border: $border;
+    width: $size - $border-width * 2;
+    height: $size - $border-width * 2;
+    border-radius: 50%;
 
     &:before {
-        @include left-center;
-        background-color: $dark-color;
-        width: $border-width;
-        height: 100%;
-        border-radius: $border-radius;
-        top: 0;
-    }
-
-    &:after {
+        @include button-after-before-setup;
         @include top-center;
         background-color: $dark-color;
         width: 100%;

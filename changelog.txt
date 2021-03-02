@@ -1,3 +1,30 @@
+v0.3.0:
+- Added Arrow - Arrow-Top-Left-Small.
+- Added Arrow - Arrow-Top-Right-Small.
+- Added Arrow - Arrow-Bottom-Left-Small.
+- Added Arrow - Arrow-Bottom-Right-Small.
+- Added Character - Not.
+- All buttons now set the positions correctly in :before and :after selectors.
+- Added Arrow - Arrow-Up.
+- Added Arrow - Arrow-Down.
+- Added Arrow - Arrow-Left.
+- Added Arrow - Arrow-Right.
+- Added Other - Expand.
+- Added Other - Search.
+- Added more browser support for transforms.
+- Added Character - Back-Slash.
+- Added Character - Forward-Slash.
+- Improved the testing "index.html" file.
+- Added Other - Wi-Fi.
+- Added Shape - Square-Four.
+- Added Arrow - Expand-Left-Right.
+- Added Arrow - Expand-Right-Left.
+- Added Arrow - Contract-Left-Right.
+- Added Arrow - Contract-Right-Left.
+- Added Other - Eye-Side.
+- Added Shape - Circle-Stop.
+- Border sizes changes will now allow icons to size correctly.
+
 v0.2.0:
 - Added Other - Hourglass.
 - Added Character - Quote.

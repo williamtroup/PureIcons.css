@@ -7,8 +7,9 @@
         @include button-after-before-setup;
         border-bottom: $border;
         border-radius: 50%;
-        bottom: $border-width;
         width: 100%;
         height: $size - $border-width;
+        left: 0;
+        bottom: $border-width;
     }
 }

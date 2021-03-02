@@ -1,23 +1,26 @@
 @import "../_foundation/styles";
 
-.ib-plus {
+.ib-wi-fi {
     @include button;
+    border-top: $border;
+    border-radius: $border-radius;
+    height: $size - $border-width;
 
     &:before {
         @include left-center;
         background-color: $dark-color;
         width: $border-width;
-        height: 100%;
+        height: $border-width;
         border-radius: $border-radius;
-        top: 0;
+        bottom: 0;
     }
 
     &:after {
-        @include top-center;
+        @include left-center-minus($border-width);
+        @include top-center-minus($border-width / 2);
         background-color: $dark-color;
-        width: 100%;
+        width: $border-width * 2;
         height: $border-width;
         border-radius: $border-radius;
-        left: 0;
     }
 }
