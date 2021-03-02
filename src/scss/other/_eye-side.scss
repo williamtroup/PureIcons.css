@@ -1,0 +1,19 @@
+@import "../_foundation/styles";
+
+.ib-eye-side {
+    @include button-no-before-after;
+    border-left: $border;
+    border-right: $border;
+    border-radius: 50%;
+    width: $size - $border-width * 2;
+
+    &:before {
+        @include button-after-before-setup;
+        @include left-center-minus($border-width / 2);
+        @include top-center;
+        background-color: $dark-color;
+        width: $border-width;
+        height: $border-width;
+        border-radius: 50%;
+    }
+}

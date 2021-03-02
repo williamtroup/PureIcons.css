@@ -2719,6 +2719,46 @@
   border-radius: 50%;
 }
 
+.ib-eye-side {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+  border-left: 6px solid #282828;
+  border-right: 6px solid #282828;
+  border-radius: 50%;
+  width: 12px;
+}
+
+.ib-eye-side:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-eye-side:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-eye-side:before {
+  position: absolute;
+  content: "";
+  left: calc(50% - 3px);
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  background-color: #282828;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
 .ib-hourglass {
   width: 24px;
   height: 24px;
