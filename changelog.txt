@@ -24,6 +24,7 @@ v0.3.0:
 - Added Arrow - Contract-Right-Left.
 - Added Other - Eye-Side.
 - Added Shape - Circle-Stop.
+- Border sizes changes will now allow icons to size correctly.
 
 v0.2.0:
 - Added Other - Hourglass.
