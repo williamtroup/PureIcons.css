@@ -1,0 +1,17 @@
+@import "../_foundation/styles";
+
+.ib-tick {
+    @include button-no-before-after;
+
+    &:after {
+        @include button-after-before-setup;
+        @include transform-rotate(-45deg);
+        border-bottom: $border;
+        border-left: $border;
+        width: $size - $border-width - $border-width / 2;
+        height: $border-width + $border-width / 2;
+        border-radius: $border-radius;
+        left: ($size / 2) - ($border-width * 2 - $border-width / 6);
+        top: -($border-width / 4 - $border-width / 2);
+    }
+}
