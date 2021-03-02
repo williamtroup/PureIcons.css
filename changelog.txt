@@ -4,6 +4,8 @@ v0.3.0:
 - Added Arrow - Arrow-Bottom-Left-Small.
 - Added Arrow - Arrow-Bottom-Right-Small.
 - Added Character - Not.
+- All buttons now set the positions correctly in :before and :after selectors.
+- 
 
 v0.2.0:
 - Added Other - Hourglass.

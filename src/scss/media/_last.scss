@@ -10,6 +10,7 @@
         border-bottom: $size - $border-width * 2 solid transparent;
         border-left: $size - $border-width - $border-width / 2 solid $dark-color;
         left: 0;
+        top: 0;
     }
 
     &:after {
@@ -18,5 +19,6 @@
         background-color: $dark-color;
         border-radius: $border-radius;
         right: 0;
+        top: 0;
     }
 }

@@ -10,5 +10,7 @@
         width: $size - $border-width;
         height: $border-width * 2;
         border-radius: $border-radius;
+        left: 0;
+        top: 0;
     }
 }

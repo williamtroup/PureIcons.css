@@ -9,6 +9,7 @@
         width: $border-width;
         height: 100%;
         border-radius: $border-radius;
+        top: 0;
     }
 
     &:after {
@@ -17,5 +18,6 @@
         width: 100%;
         height: $border-width;
         border-radius: $border-radius;
+        left: 0;
     }
 }

@@ -9,6 +9,7 @@
         border-left: $size - $border-width * 2 solid transparent;
         border-right: $size - $border-width * 2 solid transparent;
         border-bottom: $size - $border-width - $border-width / 2 solid $dark-color;
+        left: 0;
         top: 0;
     }
 
@@ -17,6 +18,7 @@
         height: $border-width;
         background-color: $dark-color;
         border-radius: $border-radius;
+        left: 0;
         bottom: 0;
     }
 }
