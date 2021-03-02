@@ -1613,6 +1613,74 @@
   top: 0;
 }
 
+.ib-back-slash {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-back-slash:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-back-slash:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-back-slash:after {
+  position: absolute;
+  content: "";
+  -webkit-transform: rotate(-22.5deg);
+  transform: rotate(-22.5deg);
+  width: 6px;
+  height: 24px;
+  background-color: #282828;
+  border-radius: 0;
+  left: 9px;
+  top: 0px;
+}
+
+.ib-forward-slash {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-forward-slash:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-forward-slash:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-forward-slash:after {
+  position: absolute;
+  content: "";
+  -webkit-transform: rotate(22.5deg);
+  transform: rotate(22.5deg);
+  width: 6px;
+  height: 24px;
+  background-color: #282828;
+  border-radius: 0;
+  left: 9px;
+  top: 0px;
+}
+
 /*
     -------------------------------------------------------------------------
     PureIcons.css - World

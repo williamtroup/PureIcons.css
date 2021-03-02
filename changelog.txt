@@ -12,6 +12,9 @@ v0.3.0:
 - Added Other - Expand.
 - Added Other - Search.
 - Added more browser support for transforms.
+- Added Character - Back-Slash.
+- Added Character - Forward-Slash.
+- Improved the testing "index.html" file.
 
 v0.2.0:
 - Added Other - Hourglass.
