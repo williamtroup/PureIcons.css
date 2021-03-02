@@ -9,6 +9,7 @@ v0.3.0:
 - Added Arrow - Arrow-Down.
 - Added Arrow - Arrow-Left.
 - Added Arrow - Arrow-Right.
+- Added Other - Expand.
 - 
 
 v0.2.0:

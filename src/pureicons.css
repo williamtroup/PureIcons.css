@@ -2557,4 +2557,50 @@
   bottom: 0;
   right: 0;
 }
+
+.ib-expand {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-expand:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-expand:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-expand:before, .ib-expand:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-expand:before {
+  border-left: 6px solid #282828;
+  border-right: 6px solid #282828;
+  width: 12px;
+  height: 6px;
+  border-radius: 0;
+  left: 0;
+  top: 0;
+}
+
+.ib-expand:after {
+  border-left: 6px solid #282828;
+  border-right: 6px solid #282828;
+  width: 12px;
+  height: 6px;
+  border-radius: 0;
+  left: 0;
+  bottom: 0;
+}
 /*# sourceMappingURL=pureicons.css.map */

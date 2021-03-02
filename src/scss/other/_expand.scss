@@ -1,0 +1,25 @@
+@import "../_foundation/styles";
+
+.ib-expand {
+    @include button;
+
+    &:before {
+        border-left: $border;
+        border-right: $border;
+        width: $size - $border-width * 2;
+        height: $border-width;
+        border-radius: $border-radius;
+        left: 0;
+        top: 0;
+    }
+
+    &:after {
+        border-left: $border;
+        border-right: $border;
+        width: $size - $border-width * 2;
+        height: $border-width;
+        border-radius: $border-radius;
+        left: 0;
+        bottom: 0;
+    }
+}
