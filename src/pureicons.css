@@ -766,6 +766,52 @@
   border-radius: 0;
 }
 
+.ib-square-four {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+  border: 6px solid #282828;
+  border-radius: 0;
+  width: 12px;
+  height: 12px;
+}
+
+.ib-square-four:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-square-four:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-square-four:before, .ib-square-four:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-square-four:before {
+  background-color: #282828;
+  width: 6px;
+  height: 6px;
+  left: 0;
+  top: 0;
+}
+
+.ib-square-four:after {
+  background-color: #282828;
+  width: 6px;
+  height: 6px;
+  right: 0;
+  bottom: 0;
+}
+
 .ib-circle {
   width: 24px;
   height: 24px;

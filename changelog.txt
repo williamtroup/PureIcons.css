@@ -17,6 +17,7 @@ v0.3.0:
 - Improved the testing "index.html" file.
 - Added Other - Wi-Fi.
 - Added Other - Tick.
+- Added Shape - Square-Four.
 
 v0.2.0:
 - Added Other - Hourglass.
