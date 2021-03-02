@@ -23,6 +23,7 @@ v0.3.0:
 - Added Arrow - Contract-Left-Right.
 - Added Arrow - Contract-Right-Left.
 - Added Other - Eye-Side.
+- Added Shape - Circle-Stop.
 
 v0.2.0:
 - Added Other - Hourglass.
