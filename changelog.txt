@@ -18,6 +18,8 @@ v0.3.0:
 - Added Other - Wi-Fi.
 - Added Other - Tick.
 - Added Shape - Square-Four.
+- Added Arrow - Expand-Left-Right.
+- Added Arrow - Expand-Right-Left.
 
 v0.2.0:
 - Added Other - Hourglass.

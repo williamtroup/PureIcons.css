@@ -673,6 +673,98 @@
   top: 3.5px;
 }
 
+.ib-arrow-expand-left-right {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-arrow-expand-left-right:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-arrow-expand-left-right:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-arrow-expand-left-right:before, .ib-arrow-expand-left-right:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-arrow-expand-left-right:before {
+  border-left: 6px solid #282828;
+  border-bottom: 6px solid #282828;
+  border-radius: 0;
+  width: 12px;
+  height: 12px;
+  bottom: 0;
+  left: 0;
+}
+
+.ib-arrow-expand-left-right:after {
+  border-right: 6px solid #282828;
+  border-top: 6px solid #282828;
+  border-radius: 0;
+  width: 12px;
+  height: 12px;
+  top: 0;
+  right: 0;
+}
+
+.ib-arrow-expand-right-left {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-arrow-expand-right-left:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-arrow-expand-right-left:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-arrow-expand-right-left:before, .ib-arrow-expand-right-left:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-arrow-expand-right-left:before {
+  border-left: 6px solid #282828;
+  border-top: 6px solid #282828;
+  border-radius: 0;
+  width: 12px;
+  height: 12px;
+  top: 0;
+  left: 0;
+}
+
+.ib-arrow-expand-right-left:after {
+  border-right: 6px solid #282828;
+  border-bottom: 6px solid #282828;
+  border-radius: 0;
+  width: 12px;
+  height: 12px;
+  bottom: 0;
+  right: 0;
+}
+
 /*
     -------------------------------------------------------------------------
     PureIcons.css - Shapes
