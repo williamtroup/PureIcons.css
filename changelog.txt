@@ -20,6 +20,8 @@ v0.3.0:
 - Added Shape - Square-Four.
 - Added Arrow - Expand-Left-Right.
 - Added Arrow - Expand-Right-Left.
+- Added Arrow - Contract-Left-Right.
+- Added Arrow - Contract-Right-Left.
 
 v0.2.0:
 - Added Other - Hourglass.

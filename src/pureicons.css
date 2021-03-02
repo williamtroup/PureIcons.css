@@ -765,6 +765,98 @@
   right: 0;
 }
 
+.ib-arrow-contract-left-right {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-arrow-contract-left-right:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-arrow-contract-left-right:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-arrow-contract-left-right:before, .ib-arrow-contract-left-right:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-arrow-contract-left-right:before {
+  border-right: 6px solid #282828;
+  border-top: 6px solid #282828;
+  border-radius: 0;
+  width: 6px;
+  height: 6px;
+  bottom: 0;
+  left: 0;
+}
+
+.ib-arrow-contract-left-right:after {
+  border-left: 6px solid #282828;
+  border-bottom: 6px solid #282828;
+  border-radius: 0;
+  width: 6px;
+  height: 6px;
+  top: 0;
+  right: 0;
+}
+
+.ib-arrow-contract-right-left {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-arrow-contract-right-left:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-arrow-contract-right-left:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-arrow-contract-right-left:before, .ib-arrow-contract-right-left:after {
+  position: absolute;
+  content: "";
+}
+
+.ib-arrow-contract-right-left:before {
+  border-right: 6px solid #282828;
+  border-bottom: 6px solid #282828;
+  border-radius: 0;
+  width: 6px;
+  height: 6px;
+  top: 0;
+  left: 0;
+}
+
+.ib-arrow-contract-right-left:after {
+  border-left: 6px solid #282828;
+  border-top: 6px solid #282828;
+  border-radius: 0;
+  width: 6px;
+  height: 6px;
+  bottom: 0;
+  right: 0;
+}
+
 /*
     -------------------------------------------------------------------------
     PureIcons.css - Shapes
