@@ -10,7 +10,8 @@ v0.3.0:
 - Added Arrow - Arrow-Left.
 - Added Arrow - Arrow-Right.
 - Added Other - Expand.
-- 
+- Added Other - Search.
+- Added more browser support for transforms.
 
 v0.2.0:
 - Added Other - Hourglass.
