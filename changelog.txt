@@ -1,3 +1,5 @@
+v0.3.0:
+
 v0.2.0:
 - Added Other - Hourglass.
 - Added Character - Quote.
