@@ -6,8 +6,8 @@
     &:before {
         width: 0; 
         height: 0; 
-        border-top: $size - $border-width * 2 solid transparent;
-        border-bottom: $size - $border-width * 2 solid transparent;
+        border-top: $size / 2 solid transparent;
+        border-bottom: $size / 2 solid transparent;
         border-left: $size - $border-width - $border-width / 2 solid $dark-color;
         right: 0;
         top: 0;
