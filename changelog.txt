@@ -5,6 +5,10 @@ v0.3.0:
 - Added Arrow - Arrow-Bottom-Right-Small.
 - Added Character - Not.
 - All buttons now set the positions correctly in :before and :after selectors.
+- Added Arrow - Arrow-Up.
+- Added Arrow - Arrow-Down.
+- Added Arrow - Arrow-Left.
+- Added Arrow - Arrow-Right.
 - 
 
 v0.2.0:

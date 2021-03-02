@@ -533,6 +533,146 @@
   top: 0;
 }
 
+.ib-arrow-up {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-arrow-up:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-arrow-up:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-arrow-up:before {
+  position: absolute;
+  content: "";
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-right: 6px solid #282828;
+  border-top: 6px solid #282828;
+  border-radius: 0;
+  width: 11px;
+  height: 11px;
+  left: 3.5px;
+  top: 3.5px;
+}
+
+.ib-arrow-down {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-arrow-down:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-arrow-down:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-arrow-down:before {
+  position: absolute;
+  content: "";
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-right: 6px solid #282828;
+  border-bottom: 6px solid #282828;
+  border-radius: 0;
+  width: 11px;
+  height: 11px;
+  left: 3.5px;
+  bottom: 3.5px;
+}
+
+.ib-arrow-left {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-arrow-left:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-arrow-left:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-arrow-left:before {
+  position: absolute;
+  content: "";
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-left: 6px solid #282828;
+  border-top: 6px solid #282828;
+  border-radius: 0;
+  width: 11px;
+  height: 11px;
+  left: 3.5px;
+  top: 3.5px;
+}
+
+.ib-arrow-right {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.ib-arrow-right:hover {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ib-arrow-right:active {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.ib-arrow-right:before {
+  position: absolute;
+  content: "";
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-right: 6px solid #282828;
+  border-top: 6px solid #282828;
+  border-radius: 0;
+  width: 11px;
+  height: 11px;
+  right: 3.5px;
+  top: 3.5px;
+}
+
 /*
     -------------------------------------------------------------------------
     PureIcons.css - Shapes
